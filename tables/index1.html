@@ -8,57 +8,98 @@
 <body>
     <form action="">
 
-        <label for="name">Nombre<br></label>
-        <input type="text" id="name" placeholder="nombre">
-        
-        <label for="Apellido">Apellido</label>
-        <input type="text" name="" id="Apellido" placeholder="Apellido">
-        <br>
-        <label for="email">email<br></label>
-        <input type="email" id="email" placeholder="email">
-        
-        <label for="celular">celular</label>
-        <input type="tel" name="" id="celular" placeholder="celular">
+        <hr>
         <br>
 
-        <label for="">Direccion</label><br>
-        <input type="text" placeholder="direccion">
-        <br>
-        <label for="fecha">Fecha nacimiento</label><br>
-        <input type="date" name="" id="fecha">
-
-        <label for="num">identificacion</label>
-        <input type="text">
-        <br>
-        <br>
-
-        <table>
+        <table >
             <tr>
                 <td>
-                <label for="gen">Genero</label><br>
-                <input type="radio" name="" id="">
-                <label for="gen">masculino</label><br>
-                <input type="radio" name="" id="">
-                <label for="gen">femenino</label>
+                    <label for="name">Nombre</label>
                 </td>
                 <td>
-                    <label for="">Hobbies</label><br>
-                    <input id="de" type="checkbox">
-                    <label for="de">deportes</label><br>
-                    <input id="mu" type="checkbox">
-                    <label id="mu" for="de">musica</label><br>
-                    <input id="ju" type="checkbox">
-                    <label id="ju" for="de">juegos</label>
-                    
+                    <label for="apellido">Apellido</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="name" type="text">
+                </td>
+                <td>
+                    <input type="text" id="apellido">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ema">Email</label>
+                </td>
+                <td>
+                    <label for="cel">Celular</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="em" type="email">
+                </td>
+                <td>
+                    <input id="cel" type="tel">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="dir">Direccion</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input id="for" type="text" size="44">
+                </td>
+            </tr>
+                
+            <tr>
+                <td>
+                    <label for="fechaa">Fecha</label>
+                </td>
+                <td>
+                    <label for="iden">numero de identificacion</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" id="iden">
+                </td>
+                <td>
+                    <input type="number" id="iden">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Genero
+                </td>
+                <td>
+                    Hobbies
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="genero"><label  for="genero">Masculino</label><br>
+                    <input type="radio" name="genero" id=""><label for="genero">Femenino</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobbie"><label for="hobbie">Deportes</label><br>
+                    <input type="checkbox" name="hobbie"><label for="hobbie">Musica</label><br>
+                    <input type="checkbox" name="hobbie"><label for="hobbie">Juegos</label>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <input type="submit" value="enviar" >
+                </td>
+                <td>
+                    <input type="reset">
                 </td>
             </tr>
         </table>
-        <br>
-        <br>
-        <br>
 
-        <input type="submit" value="enviar"> 
-        <input type="reset">
     </form>
     
     
